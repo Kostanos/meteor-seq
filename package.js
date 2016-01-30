@@ -8,12 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
-  // api.use([/*'raix:eventemitter'*/'kestanous:herald', 'kestanous:herald-web-notifications']);
   api.addFiles(['lib/seq.js'], ['client', 'server']);
-  // api.addFiles(['templates/helpers.js'], 'client');
-  // api.addFiles(['server/notifications/order_status.js',
-  //               'server/observers/users.js'], 'server');
-  // api.export('Events');
   api.export('SEQ');
 });
 
