@@ -6,7 +6,7 @@
 ```
 SEQ.push('myQueue', 'myEventName', {test: 'someData', more: 'moreData'});
 
-SEQ.listen('myQueue', function(e){
+SEQ.listen('myQueue', optionalListOfEventNames, function(e){
   console.log(e.data);
 
   e.processing();
