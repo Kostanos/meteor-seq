@@ -1,6 +1,6 @@
 Package.describe({
   name: 'kostanos:seq',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Simple Events Queue with Mongo',
   git: 'https://github.com/Kostanos/meteor-seq.git',
   documentation: 'README.md'

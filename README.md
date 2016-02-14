@@ -1,6 +1,6 @@
 # README #
 
-### Simple Events Queue for Mteor ###
+### Simple Events Queue for Meteor ###
 ## using mongodb ##
 
 ```
@@ -18,4 +18,6 @@ SEQ.listen('myQueue', optionalListOfEventNames, function(e){
   e.error('Error message goes here')
 })
 
+// Will stop listener (use same Queue and Events Names as in listen.
+SEQ.stop('myQueue', optionalListOfEventNames);
 ```
